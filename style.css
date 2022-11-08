@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.imgSize50 {
+  width: 50px;
+}
+.ghostGameAll {
+  margin: 120px auto;
+}
+img {
+  width: 100%;
+}
+
+/* head */
+.gameHead {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.gameHead h1 {
+  font-size: 40px;
+}
+.gameHead .ghostEnergy {
+  display: flex;
+  justify-content: center;
+}
+.gameHead .userTimePlay {
+  display: flex;
+}
+.gameHead .userTimePlay .play {
+  border: none;
+  margin: auto 50px;
+}
+
+/* main */
+.gameMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 120px;
+}
+.gameMain .sound {
+  margin-right: 50px;
+}
+.gameMain .sound .soundOn {
+  margin-bottom: 20px;
+}
+.gameMain .userLife {
+  margin-left: 50px;
+}
+.gameMain #bg {
+  width: 800px;
+  height: 500px;
+  background: url("./images/bg.png");
+  position: relative;
+}
+#hero {
+  display: block;
+  width: 35px;
+  height: 54px;
+  background: url("./images/hero.png") no-repeat;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+}
+#hero.stop {
+  background-position: 0px 0px;
+}
+#hero.back {
+  background-position: -35px 0px;
+}
+#hero.left {
+  background-position: -70px 0px;
+}
+#hero.right {
+  background-position: -105px 0px;
+}

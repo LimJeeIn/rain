@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Udemy - Ghost Rain</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ghostGameAll">
+      <div class="gameHead">
+        <h1 class="headName">Ghost Rain</h1>
+
+        <div class="ghostEnergy imgSize50">
+          <img src="images/lighting.png" alt="ghost energy1" />
+          <img src="images/lighting.png" alt="ghost energy2" />
+          <img src="images/lighting.png" alt="ghost energy3" />
+          <img src="images/lighting.png" alt="ghost energy4" />
+          <img src="images/lighting.png" alt="ghost energy5" />
+        </div>
+
+        <div class="userTimePlay">
+          <div class="timer imgSize50">
+            <img src="images/chronometer.png" alt="timer" />
+          </div>
+          <button class="play imgSize50">
+            <img src="images/play.png" alt="user play" />
+          </button>
+        </div>
+      </div>
+
+      <div class="gameMain">
+        <div class="sound">
+          <div class="soundOn imgSize50">
+            <img src="images/volume.png" alt="volume" />
+          </div>
+          <div class="soundOff imgSize50">
+            <img src="images/mute.png" alt="mute" />
+          </div>
+        </div>
+
+        <div id="bg">
+          <span id="hero"> </span>
+        </div>
+
+        <div class="userLife imgSize50">
+          <img src="images/blood.png" alt="user blood1" />
+          <img src="images/blood.png" alt="user blood2" />
+          <img src="images/blood.png" alt="user blood3" />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/settings.js"></script>
+    <script src="js/ghost.js"></script>
+    <script src="js/hero.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
